@@ -1,0 +1,14 @@
+#include <iostream>
+using namespace std;
+ 
+int main(){
+    float fit,inc;
+    cout << "lutfen fit miktarını giriniz:";
+    cin >> fit;
+    cout << "\n";
+    inc=fit*12;
+    cout  << "girdiginiz fit degeri " << inc << " inc eder." <<"\n";
+
+return 0; }
+    
+    

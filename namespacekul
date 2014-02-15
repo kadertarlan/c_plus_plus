@@ -1,0 +1,15 @@
+namespace program1 {
+     int iflags;
+     void g(int);
+}
+namespace program2 {
+     int iflags;
+}
+program1::iflags = 3;
+program2:.iflags = 2;
+
+
+using namespace program1;
+   iflag =5;
+   g(6);
+program2::iflags = 4;

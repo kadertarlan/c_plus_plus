@@ -1,0 +1,22 @@
+#include <iostream>
+using namespace std;
+
+
+class line{
+    int len;
+   public:
+    line(int n);
+    void show();
+
+}
+line::line(int n){
+    len=n;}
+
+void line::show(){
+    return len* '-';}
+int main(){
+    line ob(int n);
+     cout << "cizgi sayisini gir:" ;
+     cin >> n;
+     cout << ob.show();
+}
