@@ -1,8 +1,0 @@
-#include <iostream>
- using namespace std;
- int main(){
-     int i=5;
-     float f=4,6;
-     std::cout << "ınteger number :"<< i <<"real number :"<< f;
-     return 0;
-}
